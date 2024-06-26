@@ -1,13 +1,13 @@
 {
-   "name": "suhail-md",
+   "name": "꧁࿇♥𝐅𝐚𝐢𝐬𝐚𝐥 𝐮𝐝𝐚𝐬♥࿇꧂-md",
    "version": "1.3.7",
    "description": "Multi device whatsapp bot.",
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Suhail || node .",
-            "suhail": "pm2 start . --deep-monitoring --attach --name Suhail || node .",
-            "start": "pm2 start . --attach --name Suhail",
+            "run": "pm2 start . --deep-monitoring --attach --name faisal || node .",
+            "suhail": "pm2 start . --deep-monitoring --attach --name faisal || node .",
+            "start": "pm2 start . --attach --name faisal",
             "stop": "pm2 stop Suhail",
             "old-heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
             "fis-heroku-postbuild": "git clone https://github.com/SuhailTechInfo/Suhail-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
